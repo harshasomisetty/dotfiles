@@ -1,0 +1,13 @@
+#!/bin/bash
+local_ip="127.0.0.1"
+
+echo "$(cat <<-END
+127.0.0.1        localhost
+255.255.255.255  broadcasthost
+::1              localhost
+END
+)" > temp.txt
+
+
+sudo mv temp.txt /etc/hosts
+sudo dscacheutil -flushcache

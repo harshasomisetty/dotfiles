@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+
+chords="Am A A7 B7 C C7 D Dm D7 Em E F G G7"
+chord_array=($chords)
+
+for i in {1..2}
+do
+    rand=$[ $RANDOM % ${#chord_array[@]} ]
+    echo ${chord_array[$rand]}
+done

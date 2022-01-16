@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# echo "How many minutes are you grinding?"
+# read time
+# if ! [ $time ]; then
+#     time=60
+# fi
+# # add check to make sure time is a number
+# echo "Alright $time, good luck!"
+
+local_ip="127.0.0.1"
+sites="twitter instagram reddit"
+
+echo "$(cat <<-END
+127.0.0.1        localhost
+255.255.255.255  broadcasthost
+::1              localhost
+END
+)" > temp.txt
+
+for val in $sites; do
+    echo -e "" >> temp.txt
+    echo -e "$local_ip \t $val.com" >> temp.txt
+    echo -e "$local_ip \t www.$val.com" >> temp.txt
+done
+
+
+sudo mv temp.txt /etc/hosts
+sudo dscacheutil -flushcache

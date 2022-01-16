@@ -1,0 +1,37 @@
+[user]
+	name = Harsha Somisetty
+	email = harshasomisetty7@gmail.com
+
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+
+[alias]
+    tr = log --oneline --decorate --all --graph
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+    sn = start next
+    vv = verify
+
+[credential]
+	helper = osxkeychain
+
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+
+[core]
+	editor = nvim
+
+[delta]
+    line-numbers = true
+    side-by-side = true
+
+[interactive]
+    diffFilter = delta --color-only
