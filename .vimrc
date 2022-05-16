@@ -8,18 +8,6 @@ autocmd VimEnter,BufNewFile,BufReadPost * silent! set mouse=
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
 
-" Plugins will be downloaded under the specified directory.
-call plug#begin('~/.vim/plugged')
-
-" Declare the list of plugins.
-    Plug 'sainnhe/sonokai'
-call plug#end()
-
-
-" package config
-if has_key(plugs, 'sonokai')
-    colorscheme sonokai
-endif
 
 " General
 
