@@ -7,7 +7,9 @@ autocmd VimEnter,BufNewFile,BufReadPost * silent! set mouse=
 :  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
-
+highlight LineNr ctermfg=blue
+syntax on
+color darkblue
 
 " General
 
