@@ -9,7 +9,7 @@
 # echo "Alright $time, good luck!"
 
 local_ip="127.0.0.1"
-sites="twitter instagram reddit"
+sites="twitter instagram reddit tiktok linkedin youtube pornhub"
 
 echo "$(cat <<-END
 127.0.0.1        localhost
