@@ -9,7 +9,6 @@ autocmd VimEnter,BufNewFile,BufReadPost * silent! set mouse=
 :augroup END
 highlight LineNr ctermfg=blue
 syntax on
-color darkblue
 
 " General
 
@@ -174,5 +173,3 @@ map <C-.> <C-w><
 
 " Return to last edit position when opening files (You want this!)
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-
-
