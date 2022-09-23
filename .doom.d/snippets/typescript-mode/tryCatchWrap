@@ -1,0 +1,8 @@
+# key: t
+# name: tryCatchWrap
+# --
+try {
+    $1
+} catch (error){
+    console.log("$2", error)
+}
