@@ -11,3 +11,5 @@ END
 
 sudo mv temp.txt /etc/hosts
 sudo dscacheutil -flushcache
+
+echo "grind mode off"

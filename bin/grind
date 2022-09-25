@@ -27,3 +27,5 @@ done
 
 sudo mv temp.txt /etc/hosts
 sudo dscacheutil -flushcache
+
+echo "grind mode on"
