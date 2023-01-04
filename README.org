@@ -1,0 +1,28 @@
+* Setup
+echo ".cfg" >> .gitignore
+git clone --bare https://github.com/harshasomisetty/dotfiles $HOME/.cfg
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+config config --local status.showUntrackedFiles no
+config checkout
+
+
+https://www.atlassian.com/git/tutorials/dotfiles
+
+https://www.ackama.com/what-we-think/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained/
+
+* New Laptop setup
+
+xcode-select --install
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+** Brew casks
+brew install --cask iterm2 spotify emacs visual-studio-code
+
+
+** App store apps
+magnet
+hand mirror
