@@ -29,12 +29,18 @@ brew install --cask iterm2 spotify emacs-mac visual-studio-code telegram zoom fo
 
 brew install --cask google-chrome vlc transmission whatsapp discord notion signal slack figma
 
-brew install pyenv rustup solana nvm gh the_silver_searcher coreutils openblas pyenv-virtualenv rust-analyzer bash-completion
+brew install pyenv rustup nvm gh the_silver_searcher coreutils openblas pyenv-virtualenv rust-analyzer bash-completion cmake bzip2 gnu-tar
 
 
 pyenv install 
 rustup-init
+nvm install node
 
+sh -c "$(curl -sSfL https://release.solana.com/v1.14.11/install)"
+
+cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
+avm install latest
+avm use latest
 
 
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d
