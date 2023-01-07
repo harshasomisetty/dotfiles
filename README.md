@@ -27,20 +27,25 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 ```
 
 ## Brew casks
+```
 brew tap railwaycat/emacsmacport
 brew tap homebrew/cask-fonts
 
 brew install --cask iterm2 spotify emacs-mac visual-studio-code telegram zoom font-fira-code font-nunito
 
-
 brew install pyenv rustup nvm gh the_silver_searcher coreutils openblas pyenv-virtualenv rust-analyzer bash-completion cmake bzip2 gnu-tar
 
 
-*Optional*
+# optional
 brew install --cask google-chrome vlc transmission whatsapp discord notion signal slack figma
+```
+
+
+*Optional*
 
 
 ## Dev setup
+```
 pyenv install 
 rustup-init
 nvm install node
@@ -55,7 +60,8 @@ avm use latest
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 doom sync
+```
 
 ## App store apps
-magnet
-hand mirror
+[Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12)
+[Hand Mirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12)
