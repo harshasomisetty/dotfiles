@@ -18,8 +18,8 @@ brew
 node
 npm
 sudo
-yarn
 z
+yarn
 colorize
 colored-man-pages
 cp
@@ -32,6 +32,7 @@ jsontools
 ZSH_THEME="gozilla"
 
 alias ls='ls --color=auto'
+alias v='vim'
 
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
@@ -50,9 +51,29 @@ export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+export PATH="$HOME/.nvm:$PATH"
+
+export PATH="$(yarn global bin):$PATH"
+
+
+
+# pnpm
+export PNPM_HOME="/Users/harshasomisetty/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+alias pp='pnpm'
+
+export YVM_DIR=/opt/homebrew/opt/yvm
+[ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
+
 
 
 source $ZSH/oh-my-zsh.sh
-
-
-
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@15/lib/pkgconfig"

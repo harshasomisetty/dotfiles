@@ -9,6 +9,7 @@ autocmd VimEnter,BufNewFile,BufReadPost * silent! set mouse=
 :augroup END
 highlight LineNr ctermfg=blue
 syntax on
+set re=0
 
 " General
 

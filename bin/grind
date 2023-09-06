@@ -9,7 +9,7 @@
 # echo "Alright $time, good luck!"
 
 local_ip="127.0.0.1"
-sites="twitter instagram reddit tiktok linkedin youtube pornhub"
+sites="twitter instagram reddit tiktok linkedin pornhub"
 
 echo "$(cat <<-END
 127.0.0.1        localhost
@@ -28,4 +28,4 @@ done
 sudo mv temp.txt /etc/hosts
 sudo dscacheutil -flushcache
 
-echo "grind mode on"
+echo "Grind mode on. Commence the hustle."
