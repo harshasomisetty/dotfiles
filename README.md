@@ -60,8 +60,19 @@ doom sync
 
 ## App store apps
 [Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12)
+
 [Hand Mirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12)
+
 final cut pro
+
 block it
+
 vimari
+
 rewind
+
+
+## Remember to
+secure wallets
+
+make sure code is backed up
