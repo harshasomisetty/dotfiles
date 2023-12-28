@@ -8,6 +8,9 @@ export ZSH="$HOME/.oh-my-zsh"
 export PATH="/opt/homebrew/opt/bzip2/bin:$PATH"
 export PATH="/opt/homebrew/opt/gnu-tar/libexec/gnubin:$PATH"
 
+export PGDATA=/usr/local/var/postgres
+
+
 # export CPPFLAGS="-I/usr/local/opt/zlib/include -I/usr/local/opt/bzip2/include -I/usr/local/opt/bzip3/include"
 
 # export PKG_CONFIG_PATH=/usr/local/Cellar/zlib/1.2.8/lib/pkgconfig:/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig

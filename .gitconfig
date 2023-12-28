@@ -13,7 +13,7 @@
     ps = push
     pl = pull
     re = rebase
-	amo = commit --amend --no-edit
+	amo = !git add -A && git commit --amend --no-edit
     cl = fetch --prune origin
     sh = stash
     si = switch
