@@ -30,16 +30,15 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 ```
 brew tap homebrew/cask-fonts
 
-brew install --cask warp spotify visual-studio-code telegram font-fira-code font-nunito
-brew install pyenv rustup nvm gh the_silver_searcher coreutils openblas pyenv-virtualenv rust-analyzer bash-completion cmake bzip2 gnu-tar
+brew install --cask warp spotify visual-studio-code font-fira-code font-nunito figma
+brew install pyenv rustup nvm gh the_silver_searcher coreutils openblas pyenv-virtualenv rust-analyzer bash-completion cmake bzip2 gnu-tar docker
 
 
 # optional
 brew tap railwaycat/emacsmacport
 
-brew install --cask google-chrome vlc transmission whatsapp discord notion signal slack figma loom nordvpn zoom emacs-mac 
+brew install --cask google-chrome vlc transmission whatsapp telegram discord notion signal slack figma loom nordvpn zoom ledger-live loom
 ```
-
 
 ## Dev setup
 ```
@@ -61,5 +60,8 @@ doom sync
 
 ## App store apps
 [Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12)
-
 [Hand Mirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12)
+final cut pro
+block it
+vimari
+rewind
