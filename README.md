@@ -30,14 +30,13 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 ```
 brew tap homebrew/cask-fonts
 
-brew install --cask warp spotify visual-studio-code font-fira-code font-nunito figma
+brew install --cask warp spotify visual-studio-code font-fira-code font-nunito figma google-chrome vlc transmission whatsapp telegram discord notion signal slack figma loom nordvpn zoom ledger-live
 brew install pyenv rustup nvm gh the_silver_searcher coreutils openblas pyenv-virtualenv rust-analyzer bash-completion cmake bzip2 gnu-tar docker
 
 
 # optional
 brew tap railwaycat/emacsmacport
 
-brew install --cask google-chrome vlc transmission whatsapp telegram discord notion signal slack figma loom nordvpn zoom ledger-live loom
 ```
 
 ## Dev setup
@@ -46,7 +45,10 @@ pyenv install
 rustup-init
 nvm install node
 
-sh -c "$(curl -sSfL https://release.solana.com/v1.14.11/install)"
+npm install -g yarn
+
+
+sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 
 cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
 avm install latest
