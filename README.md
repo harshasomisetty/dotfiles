@@ -30,8 +30,11 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 ```
 brew tap homebrew/cask-fonts
 
-brew install --cask warp spotify visual-studio-code font-fira-code font-nunito figma google-chrome vlc transmission whatsapp telegram discord notion signal slack figma loom nordvpn zoom ledger-live
 brew install pyenv rustup nvm gh the_silver_searcher coreutils openblas pyenv-virtualenv rust-analyzer bash-completion cmake bzip2 gnu-tar docker libpq redis
+
+brew install --cask alfred cursor docker  figma font-fira-code font-nunito google-chrome ngrok nordvpn signal  telegram tradingview transmission visual-studio-code vlc warp whatsapp  
+
+brew install --cask discord electrum guitar-pro ledger-live loom notion spotify trezor-suite zoom
 
 
 # optional
