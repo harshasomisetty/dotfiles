@@ -51,7 +51,7 @@ nvm install node
 npm install -g yarn
 
 
-sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
+curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
 
 cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
 avm install latest
