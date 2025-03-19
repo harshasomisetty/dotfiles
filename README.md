@@ -32,7 +32,7 @@ brew tap homebrew/cask-fonts
 
 brew install pyenv rustup nvm gh the_silver_searcher coreutils openblas pyenv-virtualenv rust-analyzer bash-completion cmake bzip2 gnu-tar docker libpq redis
 
-brew install --cask alfred cursor docker  figma font-fira-code font-nunito google-chrome ngrok nordvpn signal  telegram tradingview transmission visual-studio-code vlc warp whatsapp rectangle
+brew install --cask alfred cursor docker chatgpt figma font-fira-code font-nunito google-chrome ngrok nordvpn signal  telegram tradingview transmission visual-studio-code vlc warp whatsapp rectangle
 
 brew install --cask discord electrum guitar-pro ledger-live loom notion spotify trezor-suite zoom
 
